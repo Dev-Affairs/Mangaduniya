@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700;900&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+/* THEME COLOR */
+:root {
+  --bg-color: #f6f6f6;
+  --primary-color: #1d8156;
+  --toast-color: #00ffff;
+  --progress-color: #04b3fe;
+}
+
+body {
+  background-color: #f6f6f6;
+}
