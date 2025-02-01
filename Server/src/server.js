@@ -4,6 +4,6 @@ import connectToDB from "./config/database.js";
 const PORT = process.env.PORT;
 
 app.listen(PORT, async () => {
-  await connectToDB();
+  // await connectToDB();
   console.log(`Server is Running At localhost:${PORT}`);
 });
